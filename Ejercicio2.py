@@ -11,5 +11,5 @@ plt.figure(figsize=(10, 6))
 plt.plot(df['mes'], df['ventas'], marker='o', linestyle='-', color='b')
 plt.title('Gráfica de ventas según el mes')
 
-plt.savefig('grafica_x_vs_y.png')
+plt.savefig("salida/mi_grafico.png")
 plt.show()

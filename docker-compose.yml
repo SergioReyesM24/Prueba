@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  ejercicio:
+    build: .
+    volumes:
+      - ./salida:/app/salida
+    container_name: ejercicio-app
