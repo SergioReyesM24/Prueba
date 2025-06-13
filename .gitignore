@@ -1,0 +1,21 @@
+# Ignorar el entorno virtual
+.venv/
+venv/
+
+# Ignorar archivos de gráficos (imágenes)
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Ignorar archivos temporales de Jupyter/VSCode u otros
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignorar archivos de configuración/editor
+.vscode/
+.DS_Store
+Thumbs.db
